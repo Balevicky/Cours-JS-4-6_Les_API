@@ -1,0 +1,5 @@
+
+https://restcountries.com
+https://randomuser.me/api/?results=24
+https://www.themealdb.com/api.php
+https://api.blablagues.net/?rub=blagues

@@ -1,0 +1,33 @@
+{
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "workbench.editor.tabSizing": "fixed",
+  "workbench.editor.tabSizingFixedMaxWidth": 38,
+  "workbench.editor.enablePreview": false,
+  "workbench.layoutControl.enabled": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "files.autoSave": "onWindowChange",
+  "editor.wordWrap": "on",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "material-icon-theme.enableLogging": true,
+  "material-icon-theme.folders.color": "#90a4a2",
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnType": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.guides.bracketPairs": "active",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
