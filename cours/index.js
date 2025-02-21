@@ -168,3 +168,49 @@ const fetchDat2 = async () => {
   // attend que await soit axécuté avant de faire la suite
   excuteFonction();
 };
+
+// ===============================
+// Le JSON
+//==============================
+// Méthode .json => méthode qu s'auto-résout en royant le body de la requête
+fetch("data.json").then((resp) => resp.json()).then((data) => {
+  // console.log(data);
+  //// Stringify=> Convertit en JSON
+  let setting = JSON.stringify(data);
+  //  console.log(setting);
+  // // Parse=> transforme json en object js
+  // console.log(JSON.parse(setting));
+});
+
+// ===============================
+// WEB API
+//==============================
+// ========== CLIENT STORAGE
+// ========= local Storage 
+// localStorage.data = "Je veux faire du local storage";
+// //pour recuperer
+document.body.textContent = localStorage.data
+// // pour supprimer
+localStorage.removeItem("data");
+// ========= on ne peut pas stocker de l'objet dans le localstorage
+const obj = {
+  name: "Goli",
+  age: 45,
+}
+// //il faut le transformer en chaine de caractere l'object js
+localStorage.user = JSON.stringify(obj)
+// //pour le recuperer
+//  console.log(JSON.parse(localStorage.user));
+// // ========= session Storage
+// sessionStorage.dataSetting = "55px"
+// console.log(sessionStorage.dataSetting);
+
+// ===============================
+// Cookies
+//==============================
+document.cookie = "username=VickyAmour";
+//// bonne pratique des cookies
+document.cookie = "pseudo=goli bi; path/; max-age=450000; secure; samesite";
+document.cookie = "Name=Bale; path/; expires=Thu, 31 Dec 2099 23:59:59 GMT; secure; samesite";
+
+ 
